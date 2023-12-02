@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/taninim-web/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Taninim</title>
+    
+		<link rel="modulepreload" href="/taninim-web/_app/immutable/entry/start.f10d497f.js">
+		<link rel="modulepreload" href="/taninim-web/_app/immutable/chunks/scheduler.b63a5fee.js">
+		<link rel="modulepreload" href="/taninim-web/_app/immutable/chunks/singletons.40e90ba1.js">
+		<link rel="modulepreload" href="/taninim-web/_app/immutable/entry/app.0edad452.js">
+		<link rel="modulepreload" href="/taninim-web/_app/immutable/chunks/index.bc76f87e.js">
+</head>
+<body data-sveltekit-preload-data="hover">
+<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1uhpwvl = {
+						assets: "/taninim-web",
+						base: "/taninim-web",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/taninim-web/_app/immutable/entry/start.f10d497f.js"),
+						import("/taninim-web/_app/immutable/entry/app.0edad452.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+</body>
+</html>
